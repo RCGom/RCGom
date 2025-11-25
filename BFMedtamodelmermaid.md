@@ -40,4 +40,4 @@ TestProtocols --> Deviations["Deviation Reports"]
 Deviations --> ValidationSummary["Validation Summary Report (VSR)"]
 
 %% Add forward flow for readability
-ValidationSummary --
+ValidationSummary --> FinalCompliance["Compliance Evidence Package"]
